@@ -1,0 +1,37 @@
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.project-box{
+    border-radius: 5px;
+    border: solid 1px #e7e7e7;
+    margin-bottom: 3%;
+}
+
+.project-text{
+    width: 80%;
+    text-align: justify;
+    float: left;
+    padding: 2%;
+}
+
+.imagem-projeto{
+    width: 20%;
+}
+
+.title{
+    padding: 0;
+    margin: 0 0 1% 0;
+}
+
+.footer-project{
+    text-align: center;
+    background: #f8f8f8;
+    width: 100%;
+    border-color: #e7e7e7;
+    border-radius: 6px;
+}
