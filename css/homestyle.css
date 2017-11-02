@@ -13,17 +13,17 @@
 #home-aside {
   float: left;
   width: 25%;
+  padding-left: 5px;
 }
 
 .navbar-list {
-  background-color: #f8f8f8;
-  border: 1px solid #e7e7e7;
-  border-radius: 4px;
+  background-color: #0028bb;
+  border: 1px solid #00229e;
   max-height: 300px;
 }
 
 .navbar-list > li > a {
-  color: #777;
+  color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;

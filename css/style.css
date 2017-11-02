@@ -4,7 +4,7 @@
 }
 
 .headbar-color{
-  background-color: #f5f5f5;
+  background-color: #0028bb;
   height: 10px;
 }
 
@@ -13,7 +13,12 @@
 }
 
 .navbar{
-  margin: 0;
+  margin: 5px;
+}
+
+.navbar-default{
+  background-color: #0028bb;
+  border-color: #00229e;
 }
 
 .navegacao {
@@ -25,4 +30,11 @@
 .navegacao li{
   width: 20%;
   text-align: center;
+}
+.navegacao li a:hover{
+  background-color: #00229e;
+}
+
+li a{
+  transition: all 0.5s;
 }
