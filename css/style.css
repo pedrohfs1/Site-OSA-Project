@@ -38,3 +38,11 @@
 li a{
   transition: all 0.5s;
 }
+
+.footer{
+  text-align: center;
+  background: #0028bb;
+  width: 100%;
+  border-color: #00229e;
+  border-radius: 6px;
+}
