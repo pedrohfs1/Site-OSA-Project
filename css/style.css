@@ -13,7 +13,7 @@
 }
 
 .navbar{
-  margin: 5px;
+  margin: 0;
 }
 
 .navbar-default{
@@ -39,10 +39,22 @@ li a{
   transition: all 0.5s;
 }
 
-.footer{
+.background{
+  background-color: #050031;
+  padding-top: 5px;
+  margin-top: -5px;
+}
+
+.container{
+  background-color: #fff;
+}
+
+footer{
   text-align: center;
-  background: #0028bb;
-  width: 100%;
-  border-color: #00229e;
-  border-radius: 6px;
+  background-color: #050031;
+}
+
+#footer-container{
+  background-color: transparent;
+
 }
