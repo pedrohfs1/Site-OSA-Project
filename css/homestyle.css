@@ -32,26 +32,32 @@
 }
 
 .navbar-list > li > a {
-  color: #fff;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 .navbar-list > li > a:hover {
-  color: #333;
+    color: #333;
 }
 
 article {
-  clear: both;
-  text-align: justify;
-  text-indent: 5%;
+    clear: both;
+    text-align: justify;
+    text-indent: 5%;
 }
 
 .bem-vindo {
-  padding: 10px;
+    padding: 10px;
 }
 
 
 @media (max-width: 992px){
 
+}
+
+.ativo{
+    background: whitesmoke;
+    transform: scale(1.05) ;
+    border-radius: 4px;
 }

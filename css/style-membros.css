@@ -1,0 +1,21 @@
+.cabecalho-membros{
+    padding: 3%;
+    text-align: justify;
+}
+.members-box{
+    border: solid 0 #0028bb;
+    margin-bottom: 3%;
+    padding: 0;
+}
+
+.image-members{
+    width: 100%;
+}
+
+.members-text{
+    padding: 2%;
+}
+
+.title{
+    padding: 0;
+}
