@@ -37,7 +37,8 @@
     padding-bottom: 20px;
     text-align: center;
 }
-.navbar-list > li > a:hover {
+.navbar-list > li > a:hover,
+.navbar-list > li > a:focus {
     color: #333;
 }
 

@@ -1,4 +1,8 @@
 
+body {
+  text-align: justify;
+}
+
 #cabecalho {
   min-height: 200px;
 }
