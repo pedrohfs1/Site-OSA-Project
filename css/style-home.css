@@ -1,0 +1,64 @@
+
+
+#home{
+  margin-top: 5px;
+}
+
+#home-container{
+  height: 350px;
+}
+
+#home-img {
+  height: inherit;
+  padding: 0;
+}
+
+#home-img img{
+  height: inherit;
+  width: 100%;
+}
+
+#home-aside {
+  height: inherit;
+  float: left;
+  width: 25%;
+  padding-left: 5px;
+}
+
+.navbar-list {
+  background-color: #0028bb;
+  border: 1px solid #00229e;
+  height: inherit;
+}
+
+.navbar-list > li > a {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.navbar-list > li > a:hover,
+.navbar-list > li > a:focus {
+    color: #333;
+}
+
+article {
+    clear: both;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.bem-vindo {
+    padding: 10px;
+}
+
+
+@media (max-width: 992px){
+
+}
+
+.ativo{
+    background: whitesmoke;
+    transform: scale(1.05) ;
+    border-radius: 4px;
+}
