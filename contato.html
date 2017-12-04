@@ -11,7 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/homestyle.css">
+    <link rel="stylesheet" href="css/style-contato.css">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -54,6 +54,34 @@
     <!-- Home Section -->
     <div class="background">
       <div class="container">
+        <div class="col-md-12 ">
+          <div class="row cabecalho-contato">
+            <h2>Contate-nos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa lacus, hendrerit sed consectetur a, accumsan vel ipsum. Phasellus mauris turpis, imperdiet laoreet odio eu, rutrum sodales quam. Nam non dignissim felis.</p>
+          </div>
+
+          <form method="post" action="php/contato.php" enctype="multipart/form-data">
+            <div class="col-md-4 col-sm-4">
+              <input name="nome" type="text" class="form-control" id="nameid" placeholder="Nome">
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <input name="email" type="email" class="form-control" id="emailid" placeholder="Email">
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <select name="assunto" class="form-control" id="assuntoid">
+                <option value="Duvidas"> Dúvidas e Esclarecimentos</option>
+                <option value="Servicos" selected> Serviços</option>
+              </select>
+            </div>
+            <div class="col-md-12 col-sm-12">
+              <textarea name="mensagem" rows="5" class="form-control" id="mensagemid" placeholder="Mensagem"></textarea>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <input name="submit" type="submit" class="form-control buttom" id="submit" value="Enviar" onclick="Enviar();">
+            </div>
+          </form>
+        </div>
+
 
 
 
