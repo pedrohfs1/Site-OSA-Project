@@ -31,14 +31,15 @@
   height: inherit;
 }
 
-.navbar-list > li > a {
-    color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
+.navbar-list>li>a,
+.navbar-list>li>a:focus{
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: transparent;
 }
-.navbar-list > li > a:hover,
-.navbar-list > li > a:focus {
+.navbar-list>li>a:hover{
     color: #333;
 }
 
