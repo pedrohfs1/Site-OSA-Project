@@ -30,6 +30,7 @@ function rodarImagens() {
     }else{
       num = nImagem - 1;
     }
+
     opcoes[num].style.backgroundColor = corFundoPadrao;
     opcoes[num].style.color = corFontePadrao;
 
@@ -45,6 +46,18 @@ function rodarImagens() {
 rodarImagens();
 
 function trocarImagem(id){
+    event.preventDefault();
     document.querySelector(".news-img").src = imagens[id];
     nImagem = id;
+
+    opcoes[id].style.backgroundColor = "#eee";
+    opcoes[id].style.color = "#333";
+
+    for (var i = 0; i < imagens.length; i++) {
+      if (i!=id) {
+        opcoes[i].style.backgroundColor = corFundoPadrao;
+        opcoes[i].style.color = corFontePadrao;
+      }
+    }
+
 }
